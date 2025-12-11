@@ -46,16 +46,16 @@ Material:
     - _BUILTIN_QueueOffset: 0
     - _Light_1_Intensity: 1
     - _Light_1_Intensity_1: 1
-    - _Light_1_Range: 0
+    - _Light_1_Range: 1
     - _Light_1_Range_1: 0.1
     - _Light_2_Intensity: 1
-    - _Light_2_Range: 0
+    - _Light_2_Range: 1
     m_Colors:
-    - _Light_1_Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Light_1_Color: {r: 0, g: 0.98021173, b: 1, a: 1}
     - _Light_1_Color_1: {r: 1, g: 0, b: 0, a: 1}
-    - _Light_1_Pos: {r: 0.1, g: 1.16, b: -0.1, a: 0}
+    - _Light_1_Pos: {r: 1, g: 0, b: 0, a: 0}
     - _Light_1_Pos_1: {r: 0.8, g: 0.5, b: 0, a: 0}
-    - _Light_2_Color: {r: 1, g: 0.9027058, b: 0, a: 1}
-    - _Light_2_Pos: {r: -0.8, g: -0.5, b: 0, a: 0}
+    - _Light_2_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Light_2_Pos: {r: -1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
