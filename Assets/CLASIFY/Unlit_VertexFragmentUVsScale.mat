@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_Toon
-  m_Shader: {fileID: 4800000, guid: e1c473354278f0747ae3cb04a4999912, type: 3}
+  m_Name: Unlit_VertexFragmentUVsScale
+  m_Shader: {fileID: 4800000, guid: 2edf2d46c68cac74e9319446f8d6e051, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -24,18 +24,13 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: ec0cb1cc28bcae249af41b11cd7f512f, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RampTex:
-        m_Texture: {fileID: 2800000, guid: 4b9dc3f3541b06e4c9663e6ffba5c646, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _OutlineWidth: 0.001
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ScaleUVX: 1
+    - _ScaleUVY: 1
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
