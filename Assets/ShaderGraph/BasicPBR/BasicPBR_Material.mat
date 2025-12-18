@@ -59,6 +59,7 @@ Material:
     - _BUILTIN_QueueOffset: 0
     - _Emission_Intensity: 1
     - _Metallic_Intensity: 1
+    - _Normal_Intensity: 1
     - _Roughtness_Intensity: 1
     m_Colors:
     - _Emission_Color: {r: 1, g: 0, b: 0, a: 1}
