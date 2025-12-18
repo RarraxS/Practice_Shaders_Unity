@@ -1337,8 +1337,8 @@
     "m_ObjectId": "494da63b29a342d99cc29adae77be171",
     "m_Title": "Light 1",
     "m_Position": {
-        "x": -1963.9998779296875,
-        "y": -134.0
+        "x": -1964.0,
+        "y": -133.99996948242188
     }
 }
 
@@ -2041,8 +2041,8 @@
     "m_ObjectId": "917dee80a8d7489ca69d4046d9b99ebd",
     "m_Title": "Light 2",
     "m_Position": {
-        "x": -1962.000244140625,
-        "y": 493.0
+        "x": -1962.0,
+        "y": 492.9999694824219
     }
 }
 
@@ -2906,7 +2906,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 1.0,
+    "m_Value": 0.5,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -3044,7 +3044,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 1.0,
+    "m_Value": 0.5,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
