@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wave
+  m_Name: Waves_Material
   m_Shader: {fileID: 4800000, guid: 147fe9ca7298e3245b2d1f0c80b67ce0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,13 +24,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: ec0cb1cc28bcae249af41b11cd7f512f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecundaryTex:
+        m_Texture: {fileID: 2800000, guid: 6301bec71158d4548869d919bab4874a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _Amplitude: 1
     - _Freq: 1
+    - _ScrollX: 0.5
+    - _ScrollY: -1.25
     - _Speed: 10
     m_Colors:
     - _Color: {r: 1, g: 0, b: 0, a: 1}
