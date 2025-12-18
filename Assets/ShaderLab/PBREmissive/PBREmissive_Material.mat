@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_Toon
-  m_Shader: {fileID: 4800000, guid: e1c473354278f0747ae3cb04a4999912, type: 3}
+  m_Name: PBREmissive_Material
+  m_Shader: {fileID: 4800000, guid: 10effa37b4134aa439c13da98fe3b458, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,19 +23,30 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
+    - _ARMTexture:
+        m_Texture: {fileID: 2800000, guid: 6301bec71158d4548869d919bab4874a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _emissionTexture:
+        m_Texture: {fileID: 2800000, guid: d0d7b79059c88f549a7c4bf782216fa8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mainTexture:
         m_Texture: {fileID: 2800000, guid: ec0cb1cc28bcae249af41b11cd7f512f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _RampTex:
-        m_Texture: {fileID: 2800000, guid: 4b9dc3f3541b06e4c9663e6ffba5c646, type: 3}
+    - _normalTexture:
+        m_Texture: {fileID: 2800000, guid: 17f6bbb3bf1c1aa488c44b5afac5e72c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _OutlineWidth: 0.001
+    - _AOIntensity: 1
+    - _emissionIntensity: 0.5
+    - _metallicIntensity: 1
+    - _normalIntensity: 1
+    - _smoothnessIntensity: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _OutlineColor: {r: 0.8150126, g: 1, b: 0, a: 1}
+    - _emissionColor: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

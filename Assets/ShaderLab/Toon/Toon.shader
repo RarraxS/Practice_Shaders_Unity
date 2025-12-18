@@ -71,11 +71,15 @@ Shader "Custom/Toon"
                 {
                     float NdotL = dot(s.Normal, lightDir);
                     float ramp = tex2D(_RampTex, float2(NdotL * 0.5 + 0.5, 0.5)).r;
-
                     fixed4 c;
                     c.rgb = s.Albedo * _LightColor0.rgb * ramp * atten;
                     c.a = s.Alpha;
                     return c;
+
+                    // fixed4 c;
+                    // c.rgb = s.Albedo * _LightColor0.rgb * ramp * atten;
+                    // c.a = s.Alpha;
+                    // return c;
                 }
 
                 void surf(Input IN, inout SurfaceOutput o)
