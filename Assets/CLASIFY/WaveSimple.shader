@@ -3,7 +3,6 @@ Shader "Custom/WaveSimple"
     Properties
     {
         _MainTex ("Main texture", 2D) = "white" {}
-        _Color ("Color", Color) = (1, 1, 1, 1)
         _Freq("Frequency", Range(0, 5)) = 1
         _Speed ("Speed", Range(0, 100)) = 10
         _Amplitude ("Amplitude", Range(0, 10)) = 1
@@ -16,7 +15,6 @@ Shader "Custom/WaveSimple"
         #pragma surface surf Lambert vertex:vert
 
         sampler2D _MainTex;
-        fixed4 _Color;
         half _Freq, _Speed, _Amplitude;
 
         struct appdata
@@ -42,7 +40,7 @@ Shader "Custom/WaveSimple"
 
         void surf (Input IN, inout SurfaceOutput o)
         {
-            fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
+            fixed4 c = tex2D (_MainTex, IN.uv_MainTex);
             o.Albedo = c.rgb;
             o.Alpha = c.rgb;
         }

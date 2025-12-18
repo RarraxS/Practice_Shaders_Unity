@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_WaveSimple
+  m_Name: Wave
   m_Shader: {fileID: 4800000, guid: 147fe9ca7298e3245b2d1f0c80b67ce0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
