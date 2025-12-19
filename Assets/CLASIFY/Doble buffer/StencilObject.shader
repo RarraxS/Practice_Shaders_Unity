@@ -15,6 +15,8 @@ Shader "Custom/Stencil Object"
     {
         Tags { "RenderType"="Opaque" "Queue"="Geometry-1" }
 
+        // ColorMask 0
+        // ZWrite off
         Stencil
         {
             Ref [_SRef]

@@ -42,7 +42,7 @@ Shader "Custom/PBREmissive"
             o.Metallic = armTex.b * _metallicIntensity;
 
             float3 normalTex = UnpackNormal(tex2D(_normalTexture, IN.uv_normalTexture));
-            float3 flatNormal = float3(0, 0, 1); // default flat normal
+            float3 flatNormal = float3(0, 0, 1);
             o.Normal = normalize(lerp(flatNormal, normalTex, _normalIntensity));
 
             float3 emissionTex = tex2D(_emissionTexture, IN.uv_emissionTexture).rgb;
