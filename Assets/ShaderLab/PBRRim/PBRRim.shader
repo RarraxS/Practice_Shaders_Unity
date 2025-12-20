@@ -1,4 +1,4 @@
-Shader "Custom/RimTexture"
+Shader "Custom/PBRRim"
 {
     Properties
     {
