@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hologram
-  m_Shader: {fileID: 4800000, guid: dfa7ea14bf9feba4e9563aec4da558b4, type: 3}
+  m_Name: Custom_Hologram
+  m_Shader: {fileID: 4800000, guid: 0de8a293010c31642a1745eba2b3b82e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []

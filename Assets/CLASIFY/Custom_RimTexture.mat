@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4819860435177596737
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 0
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BasicPBR_Material
-  m_Shader: {fileID: -6465566751694194690, guid: 68026cc2f2de0ad44ba841e251b07422, type: 3}
+  m_Name: Custom_RimTexture
+  m_Shader: {fileID: 4800000, guid: 78cbea02e8045b24c9e274e17f38647a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -36,32 +23,35 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _ARM:
+    - _armTexture:
         m_Texture: {fileID: 2800000, guid: 6301bec71158d4548869d919bab4874a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Albedo:
+    - _emissionTexture:
+        m_Texture: {fileID: 2800000, guid: 733d7ec029971914d9403248214f716d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mainTexture:
         m_Texture: {fileID: 2800000, guid: ec0cb1cc28bcae249af41b11cd7f512f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Emission_Texture:
-        m_Texture: {fileID: 2800000, guid: d0d7b79059c88f549a7c4bf782216fa8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Normal_Texture:
+    - _normalTexture:
         m_Texture: {fileID: 2800000, guid: 17f6bbb3bf1c1aa488c44b5afac5e72c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Ambient_Oclussion_Intensity: 1
-    - _BUILTIN_QueueControl: 0
-    - _BUILTIN_QueueOffset: 0
-    - _Emission_Intensity: 1
-    - _Metallic_Intensity: 1
-    - _Normal_Intensity: 1
-    - _Roughtness_Intensity: 1
+    - _ambientOclussionIntensity: 0.5
+    - _emissionIntensity: 0.5
+    - _metallic: 0.5
+    - _metallicIntensity: 0.5
+    - _normalIntensity: 1
+    - _rimIntensity: 7
+    - _rimPower: 3.5
+    - _smoothness: 0.5
+    - _smoothnessIntensity: 0.5
     m_Colors:
-    - _Emission_Color: {r: 1, g: 0, b: 0, a: 1}
+    - _emissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _rimColor: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
