@@ -28,17 +28,25 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SecundaryTex:
-        m_Texture: {fileID: 2800000, guid: 6301bec71158d4548869d919bab4874a, type: 3}
+        m_Texture: {fileID: 2800000, guid: a96618526f0d62249ad000358be696a6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amplitude: 1
-    - _Freq: 1
+    - _Amplitude: 2
+    - _DirectionXA: 0.5
+    - _DirectionXB: -0.25
+    - _DirectionYA: 0.12
+    - _DirectionYB: 0.5
+    - _Freq: 1.2
     - _ScrollX: 0.5
-    - _ScrollY: -1.25
+    - _ScrollY: -1.58
     - _Speed: 10
+    - _VelocityA: 0.25
+    - _VelocityB: 0.158
     m_Colors:
     - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _HeightColor: {r: 0.63599324, g: 1, b: 0, a: 1}
+    - _PeakColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
