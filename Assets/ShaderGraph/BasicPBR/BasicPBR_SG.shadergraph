@@ -679,10 +679,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -984.0,
-            "y": -1006.0,
-            "width": 121.0,
-            "height": 34.0
+            "x": -986.4000244140625,
+            "y": -993.5999755859375,
+            "width": 122.4000244140625,
+            "height": 33.5999755859375
         }
     },
     "m_Slots": [
@@ -1414,8 +1414,8 @@
     "m_ObjectId": "474517885b5741a9b90d63130bf02975",
     "m_Title": "Normal",
     "m_Position": {
-        "x": -1308.0,
-        "y": -587.0
+        "x": -1693.5999755859375,
+        "y": -576.7999877929688
     }
 }
 
@@ -1927,8 +1927,8 @@
     "m_ObjectId": "7365451073624290bda23e2dee055267",
     "m_Title": "Albedo",
     "m_Position": {
-        "x": -1009.0000610351563,
-        "y": -1105.0001220703125
+        "x": -1012.0,
+        "y": -1093.599853515625
     }
 }
 
@@ -2271,17 +2271,17 @@
     "m_Type": "UnityEditor.ShaderGraph.NormalUnpackNode",
     "m_ObjectId": "97964827b20e4e2283ee066604cabeb7",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "474517885b5741a9b90d63130bf02975"
     },
     "m_Name": "Normal Unpack",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -865.0000610351563,
-            "y": -528.0,
-            "width": 208.0,
-            "height": 312.0
+            "x": -1249.5999755859375,
+            "y": -494.39996337890627,
+            "width": 208.0001220703125,
+            "height": 310.4000244140625
         }
     },
     "m_Slots": [
@@ -2417,8 +2417,8 @@
     "m_ObjectId": "9d127f25345e4162bf0faad3e9e5f871",
     "m_Title": "Emission",
     "m_Position": {
-        "x": -1585.0001220703125,
-        "y": 954.0
+        "x": -1585.599853515625,
+        "y": 952.800048828125
     }
 }
 
@@ -2427,17 +2427,17 @@
     "m_Type": "UnityEditor.ShaderGraph.LerpNode",
     "m_ObjectId": "9d5fcdfeb7804acfbf2634fa345da136",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "474517885b5741a9b90d63130bf02975"
     },
     "m_Name": "Lerp",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -542.0,
-            "y": -388.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": -868.7999877929688,
+            "y": -516.7999877929688,
+            "width": 208.00006103515626,
+            "height": 325.60003662109377
         }
     },
     "m_Slots": [
@@ -2610,10 +2610,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1119.0,
-            "y": -528.0,
+            "x": -1504.0,
+            "y": -494.39996337890627,
             "width": 208.0,
-            "height": 433.0
+            "height": 430.3999938964844
         }
     },
     "m_Slots": [
@@ -2887,10 +2887,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1283.0,
-            "y": -488.0000305175781,
-            "width": 165.0,
-            "height": 34.000030517578128
+            "x": -1668.0,
+            "y": -454.3999938964844,
+            "width": 166.4000244140625,
+            "height": 33.600006103515628
         }
     },
     "m_Slots": [
@@ -2951,10 +2951,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -865.0,
-            "y": -1046.0,
+            "x": -867.2000122070313,
+            "y": -1033.5999755859375,
             "width": 208.0,
-            "height": 433.0
+            "height": 430.39996337890627
         }
     },
     "m_Slots": [
@@ -3088,10 +3088,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -783.0,
-            "y": -180.0,
-            "width": 161.0,
-            "height": 34.0
+            "x": -1204.0,
+            "y": -183.9999542236328,
+            "width": 162.400146484375,
+            "height": 33.599945068359378
         }
     },
     "m_Slots": [
@@ -4210,8 +4210,8 @@
     "m_ObjectId": "ffc4b889a2b34a9693ce722d14a59326",
     "m_Title": "ARM",
     "m_Position": {
-        "x": -1568.0001220703125,
-        "y": -37.000022888183597
+        "x": -1568.7999267578125,
+        "y": -37.60011291503906
     }
 }
 

@@ -75,11 +75,6 @@ Shader "Custom/Toon"
                     c.rgb = s.Albedo * _LightColor0.rgb * ramp * atten;
                     c.a = s.Alpha;
                     return c;
-
-                    // fixed4 c;
-                    // c.rgb = s.Albedo * _LightColor0.rgb * ramp * atten;
-                    // c.a = s.Alpha;
-                    // return c;
                 }
 
                 void surf(Input IN, inout SurfaceOutput o)

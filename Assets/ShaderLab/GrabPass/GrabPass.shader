@@ -1,11 +1,14 @@
-Shader "Unlit/VertexFragmentUVsScaleFisheyeNegativeTintLuminanceAlpha"
+Shader "Unlit/GrabPass"
 {
     Properties
     {
         _MainTex("Texture", 2D) = "white" {}
+
         _ScaleUVX("Scale UVs X", Range(0, 10)) = 1
         _ScaleUVY("Scale UVs Y", Range(0, 10)) = 1
+
         _FishEyeStrength("Fish Eye Strength", Range(0, 2)) = 0.5
+
         _TintColor("Final Multiply Color", Color) = (1,1,1,1)
     }
 
@@ -54,16 +57,13 @@ Shader "Unlit/VertexFragmentUVsScaleFisheyeNegativeTintLuminanceAlpha"
 
                     float2 uv = TRANSFORM_TEX(v.uv, _MainTex);
 
-                    // Escalado UV
                     uv.x = sin(uv.x * _ScaleUVX);
                     uv.y = sin(uv.y * _ScaleUVY);
 
-                    // ----- FISHEYE -----
                     float2 center = float2(0.5, 0.5);
                     float2 delta = uv - center;
                     float dist = length(delta);
                     uv = center + delta * (1.0 + _FishEyeStrength * dist * dist);
-                    // -------------------
 
                     o.uv = uv;
                     UNITY_TRANSFER_FOG(o, o.vertex);
@@ -75,17 +75,11 @@ Shader "Unlit/VertexFragmentUVsScaleFisheyeNegativeTintLuminanceAlpha"
                     fixed4 mainTex = tex2D(_MainTex, i.uv);
                     fixed4 grabTex = tex2D(_GrabTexture, i.uv);
 
-                    // Color base
                     fixed4 col = mainTex * grabTex;
-
-
-                    // ----- COLOR MULTIPLY -----
                     col *= _TintColor;
 
-                    // ----- ALPHA POR LUMINANCIA -----
                     float alpha = dot(mainTex.rgb, float3(0.299, 0.587, 0.114));
                     col.a *= alpha;
-                    // --------------------------------
 
                     UNITY_APPLY_FOG(i.fogCoord, col);
                     return col;
